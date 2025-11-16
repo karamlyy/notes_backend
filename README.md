@@ -23,7 +23,18 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Notes API – a simple NestJS + PostgreSQL backend for personal note taking.
+
+This project started from the Nest TypeScript starter and was customized to expose:
+
+- Authentication with JWT access & refresh tokens
+- CRUD endpoints for user-owned notes
+
+For detailed HTTP documentation, see:
+
+- `API.md` – high-level overview and entry points
+- `AUTH.md` – authentication endpoints and token flow
+- `NOTES.md` – notes CRUD endpoints and examples
 
 ## Project setup
 
